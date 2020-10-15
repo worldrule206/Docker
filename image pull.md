@@ -3,7 +3,7 @@
 - 도커 레지스트리의 centos 이미지를 pull(다운 받기)
 - 이미지는 파일들의 집합
 - 이미지는 불변(Immutable)한 저장 매체
-
+---
 ```console
 $ docker images
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
@@ -22,8 +22,8 @@ REPOSITORY          TAG                 IMAGE ID            CREATED             
 centos              latest              0d120b6ccaa8        2 months ago        215MB
 hello-world         latest              bf756fb1ae65        9 months ago        13.3kB
 ```
-
-###도커 허브(Docker Hub) - 공식 이미지 레지스트리
+---
+### 도커 허브(Docker Hub) - 공식 이미지 레지스트리
 ```console
 $ docker info | grep Registry
 WARNING: No swap limit support
